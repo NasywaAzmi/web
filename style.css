@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+section {
+  padding: 50px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: black;
+}
+
+.profil{
+  width: 200px;
+  height: 200px;
+  float: inline-start;
+}
+
+.sert{
+  width: 500px;
+  height: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.ft {
+  color: white;
+}
+
+.pendidikan p {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
